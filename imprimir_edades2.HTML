@@ -1,0 +1,41 @@
+
+<meta charset="UTF-8">
+<h1> Programa </h1>
+
+<script> //Para indicar el lenguaje que utilizaremos// 
+	//creacion de funciones//
+	function saltarLinea () {
+		document.write ("<br>")
+	}
+	function imprimir (frase){
+		document.write(frase)
+	} //esta funcion remplaza document.writer por imprimir
+	//Declarar variables// 
+	var anho = 2025;
+	var saltoLinea = "<br><br><br>"; 
+	imprimir("Hola amigos");
+	saltarLinea();
+	imprimir("Juan tiene:" + (anho-2000) + " años"); //imprimir con la funcion que creamos
+    document.write("<br>");
+	document.write ("Pedro tiene:" + (anho-1995) + " años");
+	document.write (saltoLinea);//salto de linea como variable//
+	anho = 2030
+	document.write("En el " + (anho));
+	document.write("<br>");//salto de linea con etiqueta// 
+	document.write ("Carlos tiene:" + (anho-2005) + " años");
+	saltarLinea(); //salto de linea como función//
+	anho = 2022
+	document.write ("Jimena tiene:" + (anho-2010) + " años");
+	document.write("<br>");
+	document.write ("Paola tiene:" + (anho-1995) + " años");
+	document.write("<br>");
+	document.write ("Laura tiene:" + (anho-2005) + " años");
+	document.write (saltoLinea);
+	//Nueva declaracion de variables// 
+	var edadjimena=12;
+	var edadPaola=27;
+	var edadLaura=12;
+	//Operacion matematica// 
+    promedio =(edadjimena+edadLaura+edadPaola)/3;
+	document.write("El promedio de las edades de las 3 mujeres es: " + Math.round(promedio));
+</script>
