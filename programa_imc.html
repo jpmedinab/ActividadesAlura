@@ -21,5 +21,22 @@
 	imcCalculado = carcularImc(pesoInformado,alturaInformada)
 	
 	imprimir(nombre+", su IMC Calculado es : " + imcCalculado);
+	if (imcCalculado < 18.5) {
+		imprimir ("IMC por debajo de lo recomendado");
+	} 
+	if (imcCalculado >=18.5)
+	if (imcCalculado < 25 ) {
+		imprimir ("IMC en lo normal");
+	} 
+	if (imcCalculado >=25)
+	if (imcCalculado < 30 ) {
+		imprimir ("IMC considerado como sobrepeso");
+	} 
+	 
+	if (imcCalculado >= 30) {
+		imprimir ("IMC considerado como obesidad");
+	}   
+
+
 
 </script>
