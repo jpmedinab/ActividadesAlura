@@ -1,0 +1,26 @@
+<meta charset="UTF-8">
+<h1> Programa año mundial Fifa </h1>
+
+<script> 
+	function saltarLinea () {
+		document.write ("<br>");
+		document.write ("<br>");
+		document.write ("<br>");
+	}
+	function imprimir (frase) {
+
+		document.write(frase);
+		saltarLinea();
+	} 
+	var anhoMundial =1930;
+	var limite = parseInt(prompt("ingrese el año limite para calcular"))
+	while(anhoMundial <= limite){
+
+		imprimir ("Hubo Mundial de la Fifa año "+ anhoMundial);
+		anhoMundial = anhoMundial + 4;
+		}
+		imprimir ("Fin")
+		alert("Aceptar para ver los años")
+	
+
+</script>
